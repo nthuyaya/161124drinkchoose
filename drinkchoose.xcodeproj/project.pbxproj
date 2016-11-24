@@ -12,6 +12,8 @@
 		042B9D011DE69D93005B641E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B9CFF1DE69D93005B641E /* Main.storyboard */; };
 		042B9D031DE69D93005B641E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042B9D021DE69D93005B641E /* Assets.xcassets */; };
 		042B9D061DE69D93005B641E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B9D041DE69D93005B641E /* LaunchScreen.storyboard */; };
+		042B9D0E1DE69DC5005B641E /* drinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B9D0D1DE69DC5005B641E /* drinkViewController.swift */; };
+		042B9D101DE69DD4005B641E /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B9D0F1DE69DD4005B641E /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		042B9D021DE69D93005B641E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		042B9D051DE69D93005B641E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		042B9D071DE69D93005B641E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042B9D0D1DE69DC5005B641E /* drinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drinkViewController.swift; sourceTree = "<group>"; };
+		042B9D0F1DE69DD4005B641E /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				042B9CFD1DE69D93005B641E /* ViewController.swift */,
 				042B9CFF1DE69D93005B641E /* Main.storyboard */,
 				042B9D021DE69D93005B641E /* Assets.xcassets */,
+				042B9D0D1DE69DC5005B641E /* drinkViewController.swift */,
+				042B9D0F1DE69DD4005B641E /* detailViewController.swift */,
 				042B9D041DE69D93005B641E /* LaunchScreen.storyboard */,
 				042B9D071DE69D93005B641E /* Info.plist */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				042B9CFE1DE69D93005B641E /* ViewController.swift in Sources */,
 				042B9CFC1DE69D93005B641E /* AppDelegate.swift in Sources */,
+				042B9D0E1DE69DC5005B641E /* drinkViewController.swift in Sources */,
+				042B9D101DE69DD4005B641E /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
