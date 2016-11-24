@@ -19,7 +19,6 @@ class detailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.namelabel.text = name
         
         if name == "茶湯會" {
             bgImageview.image = UIImage(named: "bg1")
